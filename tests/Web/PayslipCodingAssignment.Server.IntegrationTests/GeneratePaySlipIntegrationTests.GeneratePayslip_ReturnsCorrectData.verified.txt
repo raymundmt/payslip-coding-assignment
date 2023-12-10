@@ -1,0 +1,8 @@
+﻿{
+  Name: John Smith,
+  PayPeriod: 01 March - 31 March,
+  GrossIncome: 5004.17,
+  IncomeTax: 919.58,
+  NetIncome: 4084.59,
+  Super: 450.38
+}

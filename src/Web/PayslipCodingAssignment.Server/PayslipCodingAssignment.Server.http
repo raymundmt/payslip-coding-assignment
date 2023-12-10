@@ -1,0 +1,40 @@
+@PayslipCodingAssignment.Server_HostAddress = http://localhost:5063
+
+POST {{PayslipCodingAssignment.Server_HostAddress}}/generate-payslip
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "annualSalary": 60050,
+  "superRate": 9,
+  "payPeriod": "March"
+}
+
+###
+
+POST {{PayslipCodingAssignment.Server_HostAddress}}/generate-payslip
+Content-Type: application/json
+
+{
+  "firstName": "Alex",
+  "lastName": "Wong",
+  "annualSalary": 120000,
+  "superRate": 10,
+  "payPeriod": "March"
+}
+
+###
+
+POST {{PayslipCodingAssignment.Server_HostAddress}}/generate-payslip
+Content-Type: application/json
+
+{
+  "firstName": "",
+  "lastName": "",
+  "annualSalary": -120000,
+  "superRate": 60,
+  "payPeriod": ""
+}
+
+###
