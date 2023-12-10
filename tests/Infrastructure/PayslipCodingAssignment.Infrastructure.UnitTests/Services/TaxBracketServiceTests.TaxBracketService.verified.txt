@@ -1,0 +1,25 @@
+﻿[
+  {
+    UpperBound: 14000.0,
+    Rate: 0.105
+  },
+  {
+    LowerBound: 14000.0,
+    UpperBound: 48000.0,
+    Rate: 0.175
+  },
+  {
+    LowerBound: 48000.0,
+    UpperBound: 70000.0,
+    Rate: 0.30
+  },
+  {
+    LowerBound: 70000.0,
+    UpperBound: 180000.0,
+    Rate: 0.33
+  },
+  {
+    LowerBound: 180000.0,
+    Rate: 0.39
+  }
+]

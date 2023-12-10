@@ -1,0 +1,27 @@
+[
+  {
+    "LowerBound": 0,
+    "UpperBound": 14000,
+    "Rate": 0.105
+  },
+  {
+    "LowerBound": 14000,
+    "UpperBound": 48000,
+    "Rate": 0.175
+  },
+  {
+    "LowerBound": 48000,
+    "UpperBound": 70000,
+    "Rate": 0.30
+  },
+  {
+    "LowerBound": 70000,
+    "UpperBound": 180000,
+    "Rate": 0.33
+  },
+  {
+    "LowerBound": 180000,
+    "UpperBound": null,
+    "Rate": 0.39
+  }
+]
